@@ -1,0 +1,6 @@
+@CollegeManagementAPI.net_HostAddress = http://localhost:5179
+
+GET {{CollegeManagementAPI.net_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
