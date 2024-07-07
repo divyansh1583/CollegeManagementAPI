@@ -9,9 +9,8 @@ namespace CollegeManagementAPI.Application.Interfaces.Repositories
 {
     public interface IUserRepository
     {
-        Task<UserDetail> GetUserByEmailAsync(string email);
-        Task AddUserAsync(UserDetail user);
-        Task AddLoginCredentialAsync(LoginCredential credential);
+        Task<int> InsertUserAndLoginCredentials(UserDetail userDetail);
     }
+
 
 }

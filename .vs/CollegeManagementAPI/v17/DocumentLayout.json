@@ -1,46 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\divya\\OneDrive\\Desktop\\Projects\\Angular Projects\\CollegeManagementApp\\CollegeManagementAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE66EC29-4645-4B19-BAB2-F9DD043814C7}|CollegeManagementAPI.net\\CollegeManagementAPI.net.csproj|c:\\users\\divya\\downloads\\collegemanagementapi\\collegemanagementapi\\collegemanagementapi.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE66EC29-4645-4B19-BAB2-F9DD043814C7}|CollegeManagementAPI.net\\CollegeManagementAPI.net.csproj|solutionrelative:collegemanagementapi.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D16F966-DE78-4255-B6D3-0D96F389929E}|CollegeManagementAPI.Infrastructure\\CollegeManagementAPI.Infrastructure.csproj|c:\\users\\divya\\downloads\\collegemanagementapi\\collegemanagementapi\\collegemanagementapi.infrastructure\\implementation\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D16F966-DE78-4255-B6D3-0D96F389929E}|CollegeManagementAPI.Infrastructure\\CollegeManagementAPI.Infrastructure.csproj|solutionrelative:collegemanagementapi.infrastructure\\implementation\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7346533D-C06D-4F27-BEF8-9746623630CC}|CollegeManagementAPI.Application\\CollegeManagementAPI.Application.csproj|c:\\users\\divya\\downloads\\collegemanagementapi\\collegemanagementapi\\collegemanagementapi.application\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7346533D-C06D-4F27-BEF8-9746623630CC}|CollegeManagementAPI.Application\\CollegeManagementAPI.Application.csproj|solutionrelative:collegemanagementapi.application\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE66EC29-4645-4B19-BAB2-F9DD043814C7}|CollegeManagementAPI.net\\CollegeManagementAPI.net.csproj|c:\\users\\divya\\downloads\\collegemanagementapi\\collegemanagementapi\\collegemanagementapi.net\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FE66EC29-4645-4B19-BAB2-F9DD043814C7}|CollegeManagementAPI.net\\CollegeManagementAPI.net.csproj|c:\\users\\divya\\onedrive\\desktop\\projects\\angular projects\\collegemanagementapp\\collegemanagementapi\\collegemanagementapi.net\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE66EC29-4645-4B19-BAB2-F9DD043814C7}|CollegeManagementAPI.net\\CollegeManagementAPI.net.csproj|solutionrelative:collegemanagementapi.net\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE66EC29-4645-4B19-BAB2-F9DD043814C7}|CollegeManagementAPI.net\\CollegeManagementAPI.net.csproj|c:\\users\\divya\\downloads\\collegemanagementapi\\collegemanagementapi\\collegemanagementapi.net\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{FE66EC29-4645-4B19-BAB2-F9DD043814C7}|CollegeManagementAPI.net\\CollegeManagementAPI.net.csproj|solutionrelative:collegemanagementapi.net\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D16F966-DE78-4255-B6D3-0D96F389929E}|CollegeManagementAPI.Infrastructure\\CollegeManagementAPI.Infrastructure.csproj|c:\\users\\divya\\downloads\\collegemanagementapi\\collegemanagementapi\\collegemanagementapi.infrastructure\\data\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D16F966-DE78-4255-B6D3-0D96F389929E}|CollegeManagementAPI.Infrastructure\\CollegeManagementAPI.Infrastructure.csproj|solutionrelative:collegemanagementapi.infrastructure\\data\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D50697C4-B28A-41C6-BC66-077B3B9804E9}|CollegeManagementAPI.Domain\\CollegeManagementAPI.Domain.csproj|c:\\users\\divya\\downloads\\collegemanagementapi\\collegemanagementapi\\collegemanagementapi.domain\\entities\\userdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D50697C4-B28A-41C6-BC66-077B3B9804E9}|CollegeManagementAPI.Domain\\CollegeManagementAPI.Domain.csproj|solutionrelative:collegemanagementapi.domain\\entities\\userdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D16F966-DE78-4255-B6D3-0D96F389929E}|CollegeManagementAPI.Infrastructure\\CollegeManagementAPI.Infrastructure.csproj|c:\\users\\divya\\downloads\\collegemanagementapi\\collegemanagementapi\\collegemanagementapi.infrastructure\\implementation\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9D16F966-DE78-4255-B6D3-0D96F389929E}|CollegeManagementAPI.Infrastructure\\CollegeManagementAPI.Infrastructure.csproj|c:\\users\\divya\\onedrive\\desktop\\projects\\angular projects\\collegemanagementapp\\collegemanagementapi\\collegemanagementapi.infrastructure\\implementation\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D16F966-DE78-4255-B6D3-0D96F389929E}|CollegeManagementAPI.Infrastructure\\CollegeManagementAPI.Infrastructure.csproj|solutionrelative:collegemanagementapi.infrastructure\\implementation\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7346533D-C06D-4F27-BEF8-9746623630CC}|CollegeManagementAPI.Application\\CollegeManagementAPI.Application.csproj|c:\\users\\divya\\downloads\\collegemanagementapi\\collegemanagementapi\\collegemanagementapi.application\\interfaces\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7346533D-C06D-4F27-BEF8-9746623630CC}|CollegeManagementAPI.Application\\CollegeManagementAPI.Application.csproj|solutionrelative:collegemanagementapi.application\\interfaces\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9D16F966-DE78-4255-B6D3-0D96F389929E}|CollegeManagementAPI.Infrastructure\\CollegeManagementAPI.Infrastructure.csproj|c:\\users\\divya\\onedrive\\desktop\\projects\\angular projects\\collegemanagementapp\\collegemanagementapi\\collegemanagementapi.infrastructure\\data\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D16F966-DE78-4255-B6D3-0D96F389929E}|CollegeManagementAPI.Infrastructure\\CollegeManagementAPI.Infrastructure.csproj|solutionrelative:collegemanagementapi.infrastructure\\data\\dappercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7346533D-C06D-4F27-BEF8-9746623630CC}|CollegeManagementAPI.Application\\CollegeManagementAPI.Application.csproj|c:\\users\\divya\\downloads\\collegemanagementapi\\collegemanagementapi\\collegemanagementapi.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7346533D-C06D-4F27-BEF8-9746623630CC}|CollegeManagementAPI.Application\\CollegeManagementAPI.Application.csproj|c:\\users\\divya\\onedrive\\desktop\\projects\\angular projects\\collegemanagementapp\\collegemanagementapi\\collegemanagementapi.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7346533D-C06D-4F27-BEF8-9746623630CC}|CollegeManagementAPI.Application\\CollegeManagementAPI.Application.csproj|solutionrelative:collegemanagementapi.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE66EC29-4645-4B19-BAB2-F9DD043814C7}|CollegeManagementAPI.net\\CollegeManagementAPI.net.csproj|c:\\users\\divya\\onedrive\\desktop\\projects\\angular projects\\collegemanagementapp\\collegemanagementapi\\collegemanagementapi.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE66EC29-4645-4B19-BAB2-F9DD043814C7}|CollegeManagementAPI.net\\CollegeManagementAPI.net.csproj|solutionrelative:collegemanagementapi.net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D16F966-DE78-4255-B6D3-0D96F389929E}|CollegeManagementAPI.Infrastructure\\CollegeManagementAPI.Infrastructure.csproj|c:\\users\\divya\\onedrive\\desktop\\projects\\angular projects\\collegemanagementapp\\collegemanagementapi\\collegemanagementapi.infrastructure\\implementation\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D16F966-DE78-4255-B6D3-0D96F389929E}|CollegeManagementAPI.Infrastructure\\CollegeManagementAPI.Infrastructure.csproj|solutionrelative:collegemanagementapi.infrastructure\\implementation\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7346533D-C06D-4F27-BEF8-9746623630CC}|CollegeManagementAPI.Application\\CollegeManagementAPI.Application.csproj|c:\\users\\divya\\onedrive\\desktop\\projects\\angular projects\\collegemanagementapp\\collegemanagementapi\\collegemanagementapi.application\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7346533D-C06D-4F27-BEF8-9746623630CC}|CollegeManagementAPI.Application\\CollegeManagementAPI.Application.csproj|solutionrelative:collegemanagementapi.application\\interfaces\\services\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,136 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.net\\Program.cs",
-              "RelativeDocumentMoniker": "CollegeManagementAPI.net\\Program.cs",
-              "ToolTip": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.net\\Program.cs",
-              "RelativeToolTip": "CollegeManagementAPI.net\\Program.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAABYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T09:25:13.459Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.net\\appsettings.json",
-              "RelativeDocumentMoniker": "CollegeManagementAPI.net\\appsettings.json",
-              "ToolTip": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.net\\appsettings.json",
-              "RelativeToolTip": "CollegeManagementAPI.net\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-07-06T09:28:01.292Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.net\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "CollegeManagementAPI.net\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.net\\Controllers\\UserController.cs",
-              "RelativeToolTip": "CollegeManagementAPI.net\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBYAAAAvAAAA",
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\divya\\OneDrive\\Desktop\\Projects\\Angular Projects\\CollegeManagementApp\\CollegeManagementAPI\\CollegeManagementAPI.Application\\DTOs\\UserDto.cs",
+              "RelativeDocumentMoniker": "CollegeManagementAPI.Application\\DTOs\\UserDto.cs",
+              "ToolTip": "C:\\Users\\divya\\OneDrive\\Desktop\\Projects\\Angular Projects\\CollegeManagementApp\\CollegeManagementAPI\\CollegeManagementAPI.Application\\DTOs\\UserDto.cs",
+              "RelativeToolTip": "CollegeManagementAPI.Application\\DTOs\\UserDto.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAAAC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T09:25:36.96Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DapperContext.cs",
-              "DocumentMoniker": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.Infrastructure\\Data\\DapperContext.cs",
-              "RelativeDocumentMoniker": "CollegeManagementAPI.Infrastructure\\Data\\DapperContext.cs",
-              "ToolTip": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.Infrastructure\\Data\\DapperContext.cs",
-              "RelativeToolTip": "CollegeManagementAPI.Infrastructure\\Data\\DapperContext.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAowBYAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T09:22:32.402Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.Infrastructure\\Implementation\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "CollegeManagementAPI.Infrastructure\\Implementation\\Repositories\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.Infrastructure\\Implementation\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "CollegeManagementAPI.Infrastructure\\Implementation\\Repositories\\UserRepository.cs",
-              "ViewState": "AQIAACUAAAAAAAAAAADwvxoAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T09:05:36.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserDetail.cs",
-              "DocumentMoniker": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.Domain\\Entities\\UserDetail.cs",
-              "RelativeDocumentMoniker": "CollegeManagementAPI.Domain\\Entities\\UserDetail.cs",
-              "ToolTip": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.Domain\\Entities\\UserDetail.cs",
-              "RelativeToolTip": "CollegeManagementAPI.Domain\\Entities\\UserDetail.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAkwAsAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T08:48:14.666Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.Infrastructure\\Implementation\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "CollegeManagementAPI.Infrastructure\\Implementation\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.Infrastructure\\Implementation\\Services\\UserService.cs",
-              "RelativeToolTip": "CollegeManagementAPI.Infrastructure\\Implementation\\Services\\UserService.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAowBUAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T08:36:27.461Z",
+              "WhenOpened": "2024-07-07T10:08:25.241Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "DapperContext.cs",
+              "DocumentMoniker": "C:\\Users\\divya\\OneDrive\\Desktop\\Projects\\Angular Projects\\CollegeManagementApp\\CollegeManagementAPI\\CollegeManagementAPI.Infrastructure\\Data\\DapperContext.cs",
+              "RelativeDocumentMoniker": "CollegeManagementAPI.Infrastructure\\Data\\DapperContext.cs",
+              "ToolTip": "C:\\Users\\divya\\OneDrive\\Desktop\\Projects\\Angular Projects\\CollegeManagementApp\\CollegeManagementAPI\\CollegeManagementAPI.Infrastructure\\Data\\DapperContext.cs",
+              "RelativeToolTip": "CollegeManagementAPI.Infrastructure\\Data\\DapperContext.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAABYAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T10:06:04.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\divya\\OneDrive\\Desktop\\Projects\\Angular Projects\\CollegeManagementApp\\CollegeManagementAPI\\CollegeManagementAPI.net\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "CollegeManagementAPI.net\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\divya\\OneDrive\\Desktop\\Projects\\Angular Projects\\CollegeManagementApp\\CollegeManagementAPI\\CollegeManagementAPI.net\\Controllers\\UserController.cs",
+              "RelativeToolTip": "CollegeManagementAPI.net\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA4wBYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-07T09:59:10.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.Application\\Interfaces\\Services\\IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\divya\\OneDrive\\Desktop\\Projects\\Angular Projects\\CollegeManagementApp\\CollegeManagementAPI\\CollegeManagementAPI.Application\\Interfaces\\Services\\IUserService.cs",
               "RelativeDocumentMoniker": "CollegeManagementAPI.Application\\Interfaces\\Services\\IUserService.cs",
-              "ToolTip": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.Application\\Interfaces\\Services\\IUserService.cs",
+              "ToolTip": "C:\\Users\\divya\\OneDrive\\Desktop\\Projects\\Angular Projects\\CollegeManagementApp\\CollegeManagementAPI\\CollegeManagementAPI.Application\\Interfaces\\Services\\IUserService.cs",
               "RelativeToolTip": "CollegeManagementAPI.Application\\Interfaces\\Services\\IUserService.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAowAsAAAAZAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-05T22:32:52.453Z",
+              "WhenOpened": "2024-07-07T09:57:19.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "UserDto.cs",
-              "DocumentMoniker": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.Application\\DTOs\\UserDto.cs",
-              "RelativeDocumentMoniker": "CollegeManagementAPI.Application\\DTOs\\UserDto.cs",
-              "ToolTip": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.Application\\DTOs\\UserDto.cs",
-              "RelativeToolTip": "CollegeManagementAPI.Application\\DTOs\\UserDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\divya\\OneDrive\\Desktop\\Projects\\Angular Projects\\CollegeManagementApp\\CollegeManagementAPI\\CollegeManagementAPI.Infrastructure\\Implementation\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "CollegeManagementAPI.Infrastructure\\Implementation\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\divya\\OneDrive\\Desktop\\Projects\\Angular Projects\\CollegeManagementApp\\CollegeManagementAPI\\CollegeManagementAPI.Infrastructure\\Implementation\\Services\\UserService.cs",
+              "RelativeToolTip": "CollegeManagementAPI.Infrastructure\\Implementation\\Services\\UserService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAA9wBgAAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T09:09:07.323Z",
+              "WhenOpened": "2024-07-07T09:55:55.152Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "IUserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.Application\\Interfaces\\Repositories\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "CollegeManagementAPI.Application\\Interfaces\\Repositories\\IUserRepository.cs",
-              "ToolTip": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.Application\\Interfaces\\Repositories\\IUserRepository.cs",
-              "RelativeToolTip": "CollegeManagementAPI.Application\\Interfaces\\Repositories\\IUserRepository.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAewAcAAABCAAAA",
+              "DocumentIndex": 1,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\divya\\OneDrive\\Desktop\\Projects\\Angular Projects\\CollegeManagementApp\\CollegeManagementAPI\\CollegeManagementAPI.Infrastructure\\Implementation\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "CollegeManagementAPI.Infrastructure\\Implementation\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\divya\\OneDrive\\Desktop\\Projects\\Angular Projects\\CollegeManagementApp\\CollegeManagementAPI\\CollegeManagementAPI.Infrastructure\\Implementation\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "CollegeManagementAPI.Infrastructure\\Implementation\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAADwvyYAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-06T08:26:37.258Z",
+              "WhenOpened": "2024-07-07T09:54:42.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\divya\\OneDrive\\Desktop\\Projects\\Angular Projects\\CollegeManagementApp\\CollegeManagementAPI\\CollegeManagementAPI.net\\Program.cs",
+              "RelativeDocumentMoniker": "CollegeManagementAPI.net\\Program.cs",
+              "ToolTip": "C:\\Users\\divya\\OneDrive\\Desktop\\Projects\\Angular Projects\\CollegeManagementApp\\CollegeManagementAPI\\CollegeManagementAPI.net\\Program.cs",
+              "RelativeToolTip": "CollegeManagementAPI.net\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-06T09:25:13.459Z",
               "EditorCaption": ""
             }
           ]

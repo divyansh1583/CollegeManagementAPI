@@ -17,7 +17,9 @@ namespace CollegeManagementAPI.Domain.Entities
         public int StateId { get; set; }
         public string Gender { get; set; }
         public bool IsDeleted { get; set; }
+        public string Password { get; set; } // Added Password property
     }
+
     public class LoginCredential
     {
         public int UserId { get; set; }

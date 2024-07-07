@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XgUZbLRRH1+p9TOMqqJcyOd9/knriM3k7l1hIUAF7xK0ggXM0fncWpqVI3wExT4HT9X67ES2MRyXsORt3fxXJA==",
+  "dgSpecHash": "qK4BTiV5s1titrFVsZWaL/sVqFuTCgMSIbwW7Mu93dds0unUqwZ0VVN4W/SOfFlqQOBpTYdYjTsHWJ4uf0CtRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.Infrastructure\\CollegeManagementAPI.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\divya\\OneDrive\\Desktop\\Projects\\Angular Projects\\CollegeManagementApp\\CollegeManagementAPI\\CollegeManagementAPI.Infrastructure\\CollegeManagementAPI.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\divya\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\divya\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

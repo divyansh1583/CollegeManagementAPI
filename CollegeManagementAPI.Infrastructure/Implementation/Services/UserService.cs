@@ -19,38 +19,12 @@ namespace CollegeManagementAPI.Infrastructure.Implementation.Services
             _userRepository = userRepository;
         }
 
-        public async Task AddUserAsync(UserDto userDto)
+        public async Task<int> RegisterUser(UserDetail userDetail)
         {
-            var existingUser = await _userRepository.GetUserByEmailAsync(userDto.Email);
-            if (existingUser != null)
-            {
-                throw new Exception("Email already exists");
-            }
-
-            var userDetail = new UserDetail
-            {
-                FirstName = userDto.FirstName,
-                LastName = userDto.LastName,
-                Email = userDto.Email,
-                PhoneNumber = userDto.PhoneNumber,
-                CountryId = userDto.CountryId,
-                StateId = userDto.StateId,
-                Gender = userDto.Gender,
-                IsDeleted = false
-            };
-
-            await _userRepository.AddUserAsync(userDetail);
-
-            var loginCredential = new LoginCredential
-            {
-                UserId = userDetail.UserId,
-                Email = userDto.Email,
-                Password = userDto.Password,
-                IsActive = true,
-            };
-
-            await _userRepository.AddLoginCredentialAsync(loginCredential);
+            // Additional business logic can be added here if needed
+            return await _userRepository.InsertUserAndLoginCredentials(userDetail);
         }
     }
+
 
 }

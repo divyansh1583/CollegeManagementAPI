@@ -1,33 +1,52 @@
 ﻿using CollegeManagementAPI.Application.DTOs;
+using CollegeManagementAPI.Application.Interfaces.Repositories;
 using CollegeManagementAPI.Application.Interfaces.Services;
+using CollegeManagementAPI.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CollegeManagementAPI.net.Controllers
 {
-    [ApiController]
     [Route("api/[controller]")]
+    [ApiController]
     public class UserController : ControllerBase
     {
-        private readonly IUserService _userService;
+        private readonly IUserRepository _userRepository;
 
-        public UserController(IUserService userService)
+        public UserController(IUserRepository userRepository)
         {
-            _userService = userService;
+            _userRepository = userRepository;
         }
 
         [HttpPost]
         public async Task<IActionResult> Register(UserDto userDto)
         {
-            try
+            if (!ModelState.IsValid)
             {
-                await _userService.AddUserAsync(userDto);
-                return Ok("User registered successfully");
+                return BadRequest(ModelState);
             }
-            catch (Exception ex)
+
+            var userDetail = new UserDetail
             {
-                return BadRequest(ex.Message);
+                FirstName = userDto.FirstName,
+                LastName = userDto.LastName,
+                Email = userDto.Email,
+                PhoneNumber = userDto.PhoneNumber,
+                CountryId = userDto.CountryId,
+                StateId = userDto.StateId,
+                Gender = userDto.Gender,
+                IsDeleted = false,
+                Password = userDto.Password
+            };
+
+            var result = await _userRepository.InsertUserAndLoginCredentials(userDetail);
+            if (result > 0)
+            {
+                return Ok("User registered successfully.");
             }
+
+            return StatusCode(500, "An error occurred while registering the user.");
         }
     }
+    
 
 }

@@ -4,12 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using CollegeManagementAPI.Application.DTOs;
+using CollegeManagementAPI.Domain.Entities;
 
 namespace CollegeManagementAPI.Application.Interfaces.Services
 {
     public interface IUserService
     {
-        Task AddUserAsync(UserDto userDto);
+        Task<int> RegisterUser(UserDetail userDetail);
     }
+
 
 }

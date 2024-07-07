@@ -9,3 +9,15 @@ C:\Users\divya\Downloads\CollegeManagementAPI\CollegeManagementAPI\CollegeManage
 C:\Users\divya\Downloads\CollegeManagementAPI\CollegeManagementAPI\CollegeManagementAPI.Domain\obj\Debug\net8.0\refint\CollegeManagementAPI.Domain.dll
 C:\Users\divya\Downloads\CollegeManagementAPI\CollegeManagementAPI\CollegeManagementAPI.Domain\obj\Debug\net8.0\CollegeManagementAPI.Domain.pdb
 C:\Users\divya\Downloads\CollegeManagementAPI\CollegeManagementAPI\CollegeManagementAPI.Domain\obj\Debug\net8.0\ref\CollegeManagementAPI.Domain.dll
+C:\Users\divya\OneDrive\Desktop\Projects\Angular Projects\CollegeManagementApp\CollegeManagementAPI\CollegeManagementAPI.Domain\bin\Debug\net8.0\CollegeManagementAPI.Domain.deps.json
+C:\Users\divya\OneDrive\Desktop\Projects\Angular Projects\CollegeManagementApp\CollegeManagementAPI\CollegeManagementAPI.Domain\bin\Debug\net8.0\CollegeManagementAPI.Domain.dll
+C:\Users\divya\OneDrive\Desktop\Projects\Angular Projects\CollegeManagementApp\CollegeManagementAPI\CollegeManagementAPI.Domain\bin\Debug\net8.0\CollegeManagementAPI.Domain.pdb
+C:\Users\divya\OneDrive\Desktop\Projects\Angular Projects\CollegeManagementApp\CollegeManagementAPI\CollegeManagementAPI.Domain\obj\Debug\net8.0\CollegeManagementAPI.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\divya\OneDrive\Desktop\Projects\Angular Projects\CollegeManagementApp\CollegeManagementAPI\CollegeManagementAPI.Domain\obj\Debug\net8.0\CollegeManagementAPI.Domain.AssemblyInfoInputs.cache
+C:\Users\divya\OneDrive\Desktop\Projects\Angular Projects\CollegeManagementApp\CollegeManagementAPI\CollegeManagementAPI.Domain\obj\Debug\net8.0\CollegeManagementAPI.Domain.AssemblyInfo.cs
+C:\Users\divya\OneDrive\Desktop\Projects\Angular Projects\CollegeManagementApp\CollegeManagementAPI\CollegeManagementAPI.Domain\obj\Debug\net8.0\CollegeManagementAPI.Domain.csproj.CoreCompileInputs.cache
+C:\Users\divya\OneDrive\Desktop\Projects\Angular Projects\CollegeManagementApp\CollegeManagementAPI\CollegeManagementAPI.Domain\obj\Debug\net8.0\CollegeManagementAPI.Domain.sourcelink.json
+C:\Users\divya\OneDrive\Desktop\Projects\Angular Projects\CollegeManagementApp\CollegeManagementAPI\CollegeManagementAPI.Domain\obj\Debug\net8.0\CollegeManagementAPI.Domain.dll
+C:\Users\divya\OneDrive\Desktop\Projects\Angular Projects\CollegeManagementApp\CollegeManagementAPI\CollegeManagementAPI.Domain\obj\Debug\net8.0\refint\CollegeManagementAPI.Domain.dll
+C:\Users\divya\OneDrive\Desktop\Projects\Angular Projects\CollegeManagementApp\CollegeManagementAPI\CollegeManagementAPI.Domain\obj\Debug\net8.0\CollegeManagementAPI.Domain.pdb
+C:\Users\divya\OneDrive\Desktop\Projects\Angular Projects\CollegeManagementApp\CollegeManagementAPI\CollegeManagementAPI.Domain\obj\Debug\net8.0\ref\CollegeManagementAPI.Domain.dll

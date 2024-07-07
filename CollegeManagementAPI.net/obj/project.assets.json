@@ -1077,11 +1077,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.net\\CollegeManagementAPI.net.csproj",
+      "projectUniqueName": "C:\\Users\\divya\\OneDrive\\Desktop\\Projects\\Angular Projects\\CollegeManagementApp\\CollegeManagementAPI\\CollegeManagementAPI.net\\CollegeManagementAPI.net.csproj",
       "projectName": "CollegeManagementAPI.net",
-      "projectPath": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.net\\CollegeManagementAPI.net.csproj",
+      "projectPath": "C:\\Users\\divya\\OneDrive\\Desktop\\Projects\\Angular Projects\\CollegeManagementApp\\CollegeManagementAPI\\CollegeManagementAPI.net\\CollegeManagementAPI.net.csproj",
       "packagesPath": "C:\\Users\\divya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.net\\obj\\",
+      "outputPath": "C:\\Users\\divya\\OneDrive\\Desktop\\Projects\\Angular Projects\\CollegeManagementApp\\CollegeManagementAPI\\CollegeManagementAPI.net\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\divya\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1098,11 +1098,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.Application\\CollegeManagementAPI.Application.csproj": {
-              "projectPath": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.Application\\CollegeManagementAPI.Application.csproj"
+            "C:\\Users\\divya\\OneDrive\\Desktop\\Projects\\Angular Projects\\CollegeManagementApp\\CollegeManagementAPI\\CollegeManagementAPI.Application\\CollegeManagementAPI.Application.csproj": {
+              "projectPath": "C:\\Users\\divya\\OneDrive\\Desktop\\Projects\\Angular Projects\\CollegeManagementApp\\CollegeManagementAPI\\CollegeManagementAPI.Application\\CollegeManagementAPI.Application.csproj"
             },
-            "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.Infrastructure\\CollegeManagementAPI.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\divya\\Downloads\\CollegeManagementAPI\\CollegeManagementAPI\\CollegeManagementAPI.Infrastructure\\CollegeManagementAPI.Infrastructure.csproj"
+            "C:\\Users\\divya\\OneDrive\\Desktop\\Projects\\Angular Projects\\CollegeManagementApp\\CollegeManagementAPI\\CollegeManagementAPI.Infrastructure\\CollegeManagementAPI.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\divya\\OneDrive\\Desktop\\Projects\\Angular Projects\\CollegeManagementApp\\CollegeManagementAPI\\CollegeManagementAPI.Infrastructure\\CollegeManagementAPI.Infrastructure.csproj"
             }
           }
         }
