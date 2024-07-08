@@ -20,11 +20,4 @@ namespace CollegeManagementAPI.Domain.Entities
         public string Password { get; set; } // Added Password property
     }
 
-    public class LoginCredential
-    {
-        public int UserId { get; set; }
-        public string Email { get; set; }
-        public string Password { get; set; }
-        public bool IsActive { get; set; }
-    }
 }

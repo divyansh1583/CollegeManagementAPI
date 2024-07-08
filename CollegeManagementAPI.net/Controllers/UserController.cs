@@ -10,13 +10,21 @@ namespace CollegeManagementAPI.net.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        private readonly IUserRepository _userRepository;
+        private readonly IUserService _userService;
 
-        public UserController(IUserRepository userRepository)
+        public UserController(IUserService userService)
+
         {
-            _userRepository = userRepository;
+            _userService = userService;
         }
 
+        [HttpGet]
+        public async Task<IActionResult> GetUsers()
+        {
+            var users = Ok(await _userService.GetUsersAsync());
+            return users;
+            
+        }
         [HttpPost]
         public async Task<IActionResult> Register(UserDto userDto)
         {
@@ -38,7 +46,7 @@ namespace CollegeManagementAPI.net.Controllers
                 Password = userDto.Password
             };
 
-            var result = await _userRepository.InsertUserAndLoginCredentials(userDetail);
+            var result = await _userService.RegisterUser(userDetail);
             if (result > 0)
             {
                 return Ok("User registered successfully.");

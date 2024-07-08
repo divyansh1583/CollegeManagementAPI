@@ -9,6 +9,8 @@ namespace CollegeManagementAPI.Application.DTOs
 {
     public class UserDto
     {
+  
+
         [Required]
         [MaxLength(20)]
         public string FirstName { get; set; }
@@ -37,9 +39,6 @@ namespace CollegeManagementAPI.Application.DTOs
         [RegularExpression(@"^(?=[^A-Z]*[A-Z])(?=[^a-z]*[a-z])(?=\D*\d)(?=.*[$@$!%*?&]).{6,}$")]
         public string Password { get; set; }
 
-        [Required]
-        [Compare("Password")]
-        public string ConfirmPassword { get; set; }
     }
 
 

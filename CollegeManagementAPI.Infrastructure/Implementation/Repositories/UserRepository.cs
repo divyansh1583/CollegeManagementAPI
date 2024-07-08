@@ -15,12 +15,21 @@ namespace CollegeManagementAPI.Infrastructure.Implementation.Repositories
         {
             _context = context;
         }
+        public async Task<IEnumerable<UserDetail>> GetUsersAsync()
+        {
+            using (var connection = _context.CreateConnection())
+            {
+                var query = "SELECT * FROM DC_UserDetail";
+
+                return await connection.QueryAsync<UserDetail>(query);
+            }
+        }
 
         public async Task<int> InsertUserAndLoginCredentials(UserDetail userDetail)
         {
             using (var connection = _context.CreateConnection())
             {
-                var query = "InsertUserAndLoginCredentials";
+                var query = "DC_InsertUserAndLoginCredentials";
 
                 var parameters = new
                 {
@@ -31,11 +40,12 @@ namespace CollegeManagementAPI.Infrastructure.Implementation.Repositories
                     userDetail.CountryId,
                     userDetail.StateId,
                     userDetail.Gender,
-                    Password = userDetail.Password // Assuming Password is added to UserDetail class
+                    userDetail.Password 
                 };
 
                 return await connection.ExecuteAsync(query, parameters, commandType: CommandType.StoredProcedure);
             }
         }
+
     }
 }
