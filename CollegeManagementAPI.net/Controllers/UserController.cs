@@ -20,8 +20,7 @@ namespace CollegeManagementAPI.net.Controllers
         [HttpGet("users")]
         public async Task<IActionResult> GetUsers()
         {
-            var users = Ok(await _userService.GetUsersAsync());
-            return users;
+            return Ok(await _userService.GetUsersAsync());
 
         }
 
