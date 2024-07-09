@@ -4,8 +4,11 @@ namespace CollegeManagementAPI.Application.Interfaces.Services
 {
     public interface IUserService
     {
-        Task<int> RegisterUser(UserDetail userDetail);
         Task<IEnumerable<UserDetail>> GetUsersAsync();
+        Task<int> RegisterUser(UserDetail userDetail);
+        Task<int> UpdateUser(UserDetail userDetail);
+        Task<int> DeleteUser(int userId);
+
     }
 
 

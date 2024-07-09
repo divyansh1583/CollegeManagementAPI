@@ -18,16 +18,33 @@ namespace CollegeManagementAPI.Infrastructure.Implementation.Services
         {
             _userRepository = userRepository;
         }
+
+        //Get
         public async Task<IEnumerable<UserDetail>> GetUsersAsync()
         {
-            // Additional business logic can be added here if needed
+
             return await _userRepository.GetUsersAsync();
         }
+
+        //Insert
         public async Task<int> RegisterUser(UserDetail userDetail)
         {
-            // Additional business logic can be added here if needed
+
             return await _userRepository.InsertUserAndLoginCredentials(userDetail);
         }
+
+        //Update
+        public async Task<int> UpdateUser(UserDetail userDetail)
+        {
+            return await _userRepository.UpdateUserAsync(userDetail);
+        }
+
+        //Delete
+        public async Task<int> DeleteUser(int userId)
+        {
+            return await _userRepository.DeleteUserAsync(userId);
+        }
+
     }
 
 

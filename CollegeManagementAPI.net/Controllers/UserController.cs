@@ -1,5 +1,4 @@
 ﻿using CollegeManagementAPI.Application.DTOs;
-using CollegeManagementAPI.Application.Interfaces.Repositories;
 using CollegeManagementAPI.Application.Interfaces.Services;
 using CollegeManagementAPI.Domain.Entities;
 using Microsoft.AspNetCore.Mvc;
@@ -18,33 +17,21 @@ namespace CollegeManagementAPI.net.Controllers
             _userService = userService;
         }
 
-        [HttpGet]
+        [HttpGet("users")]
         public async Task<IActionResult> GetUsers()
         {
             var users = Ok(await _userService.GetUsersAsync());
             return users;
-            
+
         }
-        [HttpPost]
-        public async Task<IActionResult> Register(UserDto userDto)
+
+        [HttpPost("register")]
+        public async Task<IActionResult> Register(UserDetail userDetail)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-
-            var userDetail = new UserDetail
-            {
-                FirstName = userDto.FirstName,
-                LastName = userDto.LastName,
-                Email = userDto.Email,
-                PhoneNumber = userDto.PhoneNumber,
-                CountryId = userDto.CountryId,
-                StateId = userDto.StateId,
-                Gender = userDto.Gender,
-                IsDeleted = false,
-                Password = userDto.Password
-            };
 
             var result = await _userService.RegisterUser(userDetail);
             if (result > 0)
@@ -54,7 +41,39 @@ namespace CollegeManagementAPI.net.Controllers
 
             return StatusCode(500, "An error occurred while registering the user.");
         }
-    }
-    
 
+        [HttpPut("update")]
+        public async Task<IActionResult> Update(UserDetail userDetail)
+        {
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            var result = await _userService.UpdateUser(userDetail);
+            if (result > 0)
+            {
+                return Ok("User Updated Succesfully.");
+            }
+
+            return StatusCode(500, "An error occurred while updating the user.");
+        }
+
+        [HttpDelete("delete")]
+
+        public async Task<IActionResult> Delete(int id)
+        {
+            var result = await _userService.DeleteUser(id);
+            if (result > 0)
+            {
+                return Ok("User Deleted Succesfully");
+            }
+
+            return StatusCode(500, "An error occurred while deleting the user.");
+        }
+
+    }
 }
+
+
+
