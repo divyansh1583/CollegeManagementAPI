@@ -10,10 +10,16 @@ namespace CollegeManagementAPI.Infrastructure.Implementation.Repositories
     public class UserRepository : IUserRepository
     {
         private readonly DapperContext _context;
+        private readonly DbService _dbService;
 
-        public UserRepository(DapperContext context)
+
+        public UserRepository(
+            DapperContext context,
+            DbService dbService
+            )
         {
             _context = context;
+            _dbService = dbService;
         }
 
         // Getting users list
@@ -21,9 +27,23 @@ namespace CollegeManagementAPI.Infrastructure.Implementation.Repositories
         {
             using (var connection = _context.CreateConnection())
             {
-                var query = "EXEC DC_GetUserDetails";
+                var query = "exec dc_getuserdetails";
 
                 return await connection.QueryAsync<UserDetail>(query);
+            }
+            //return await _dbService.QueryAsync("EXEC DC_GetUserDetails");
+
+        }
+        //getting user by email
+        public async Task<UserDetail> GetUserByEmailAsync(string email)
+        {
+            using (var connection = _context.CreateConnection())
+            {
+                var query = "SELECT * FROM DC_LoginCredentials lc WHERE Email=@Email";
+
+                var result = await connection.QueryAsync<UserDetail>(query, new { Email = email });
+
+                return result.FirstOrDefault();
             }
         }
 

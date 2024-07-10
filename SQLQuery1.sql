@@ -20,6 +20,7 @@
 		IsActive BIT NOT NULL DEFAULT 1,
 		FOREIGN KEY (UserId) REFERENCES DC_UserDetail(UserId)
 	);
+	SELECT * FROM DC_LoginCredentials lc WHERE Email='jane.smith@example.com'
 
 	--insert procedure
 	CREATE or ALTER PROCEDURE DC_InsertUserAndLoginCredentials

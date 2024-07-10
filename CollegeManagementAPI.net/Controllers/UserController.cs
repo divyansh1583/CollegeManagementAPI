@@ -23,7 +23,13 @@ namespace CollegeManagementAPI.net.Controllers
             return Ok(await _userService.GetUsersAsync());
 
         }
+        [HttpPost("login")]
+        public async Task<IActionResult> LoginAsync(LoginDetails loginDetails)
+        {
+            var result = await _userService.LoginUserAsync(loginDetails);
 
+            return Ok(result);
+        }
         [HttpPost("register")]
         public async Task<IActionResult> Register(UserDetail userDetail)
         {

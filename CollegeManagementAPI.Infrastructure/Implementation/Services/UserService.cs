@@ -25,7 +25,17 @@ namespace CollegeManagementAPI.Infrastructure.Implementation.Services
 
             return await _userRepository.GetUsersAsync();
         }
+        //loging use if email id and 
+        public async Task<Result> LoginUserAsync(LoginDetails loginDetails)
+        {
+            var user = await _userRepository.GetUserByEmailAsync(loginDetails.Email);
 
+            if (user == null || user.Password != loginDetails.Password)
+            {
+                return new Result { IsSuccess = false, Message = "Invalid email or password" };
+            }
+            return new Result { IsSuccess = true, Message = "Login successful" };
+        }
         //Insert
         public async Task<int> RegisterUser(UserDetail userDetail)
         {
