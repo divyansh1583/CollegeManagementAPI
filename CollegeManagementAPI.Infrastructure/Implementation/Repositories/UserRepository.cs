@@ -10,16 +10,16 @@ namespace CollegeManagementAPI.Infrastructure.Implementation.Repositories
     public class UserRepository : IUserRepository
     {
         private readonly DapperContext _context;
-        private readonly DbService _dbService;
+        //private readonly DbService _dbService;
 
 
         public UserRepository(
-            DapperContext context,
-            DbService dbService
+            DapperContext context
+            //DbService dbService
             )
         {
             _context = context;
-            _dbService = dbService;
+            //_dbService = dbService;
         }
 
         // Getting users list

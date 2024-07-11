@@ -47,6 +47,7 @@ namespace CollegeManagementAPI.Infrastructure.Implementation.Services
         public async Task<int> UpdateUser(UserDetail userDetail)
         {
             return await _userRepository.UpdateUserAsync(userDetail);
+
         }
 
         //Delete

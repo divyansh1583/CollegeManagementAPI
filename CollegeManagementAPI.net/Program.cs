@@ -19,7 +19,7 @@ builder.Services.AddSingleton<DapperContext>();
 // Register repositories and services
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IUserService, UserService>();
-builder.Services.AddScoped<IDbService, DbService>();
+//builder.Services.AddScoped<IDbService, DbService>();
 
 var app = builder.Build();
 
