@@ -41,7 +41,7 @@ namespace CollegeManagementAPI.net.Controllers
             var result = await _userService.RegisterUser(userDetail);
             if (result > 0)
             {
-                return Ok("User registered successfully.");
+                return Ok();
             }
 
             return StatusCode(500, "An error occurred while registering the user.");
